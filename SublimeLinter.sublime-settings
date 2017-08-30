@@ -1,0 +1,127 @@
+{
+	"user":
+	{
+		"debug": true,
+		"delay": 0.25,
+		"error_color": "D02000",
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+		"gutter_theme_excludes":
+		[
+		],
+		"lint_mode": "save only",
+		"linters":
+		{
+			"csslint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"errors": "",
+				"excludes":
+				[
+				],
+				"ignore": "",
+				"warnings": ""
+			},
+			"htmltidy":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"ignore_match":
+				[
+					"inserting missing 'title' element"
+				]
+			},
+			"jshint":
+			{
+				"@disable": true,
+				"args":
+				[
+					"--config",
+					"/Users/zhouwen/.jshintrc"
+				],
+				"excludes":
+				[
+				]
+			},
+			"json":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"strict": true
+			},
+			"phplint":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"cmd": "/usr/local/bin/php",
+				"excludes":
+				[
+				]
+			}
+		},
+		"mark_style": "fill",
+		"no_column_highlights_line": false,
+		"passive_warnings": false,
+		"paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+			]
+		},
+		"python_paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+			]
+		},
+		"rc_search_limit": 3,
+		"shell_timeout": 10,
+		"show_errors_on_save": true,
+		"show_marks_in_minimap": true,
+		"syntax_map":
+		{
+			"html (django)": "html",
+			"html (rails)": "html",
+			"html 5": "html",
+			"javascript (babel)": "javascript",
+			"magicpython": "python",
+			"php": "html",
+			"python django": "python",
+			"pythonimproved": "python"
+		},
+		"tooltip_fontsize": "1rem",
+		"tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
+		"tooltip_theme_excludes":
+		[
+		],
+		"tooltips": false,
+		"warning_color": "DDB700",
+		"wrap_find": true
+	}
+}
